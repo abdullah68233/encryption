@@ -7,7 +7,7 @@ namespace SendMail.Settings
 {
     public class MailSettings
     {
-        public const string mailProviderSettings = "Mail1Settings";
+        public const string mailProviderSettings = "Gmail";
         public string Mail { get; set; }
         public string DisplayName { get; set; }
         public string Password { get; set; }
